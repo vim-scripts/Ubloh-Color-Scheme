@@ -1,6 +1,6 @@
 " Ubloh Color Scheme
 " Author:  Jeremy Blain <blain.jeremy@gmail.com>
-" Version: 1.0
+" Version: 1.1
 
 set bg=dark
 hi clear
@@ -28,16 +28,17 @@ hi Todo       guifg=red guibg=darkred gui=bold ctermfg=red ctermbg=darkred cterm
 hi Title      guifg=white gui=bold ctermfg=white cterm=bold
 hi Underlined guifg=darkcyan ctermfg=darkcyan
 
-hi Statement guifg=darkyellow gui=bold ctermfg=darkyellow cterm=bold
-hi Special   guifg=magenta gui=bold ctermfg=magenta cterm=bold
-hi PreProc   guifg=darkmagenta gui=bold ctermfg=darkmagenta cterm=bold
-hi String    guifg=red ctermfg=red
-hi Constant  guifg=green gui=bold ctermfg=green cterm=bold
-hi Type      guifg=darkgreen gui=bold ctermfg=darkgreen cterm=bold
-hi Function  guifg=blue ctermfg=blue
+hi Statement  guifg=darkyellow gui=bold ctermfg=darkyellow cterm=bold
+hi Special    guifg=yellow gui=bold ctermfg=yellow cterm=bold
+hi PreProc    guifg=deepskyblue2 gui=bold ctermfg=cyan cterm=bold
+hi Identifier guifg=firebrick3 ctermfg=red
+hi String     guifg=chocolate2 ctermfg=yellow
+hi Constant   guifg=darkcyan gui=bold,italic ctermfg=darkcyan cterm=bold,italic
+hi Type       guifg=limegreen gui=bold ctermfg=green cterm=bold
+hi Function   guifg=blue gui=bold ctermfg=blue gui=bold
 
-hi rubySymbol     guifg=darkcyan gui=bold ctermfg=darkcyan cterm=bold
-hi erubyDelimiter guifg=darkred gui=bold ctermfg=darkred cterm=bold
+hi rubySymbol     guifg=slateblue gui=bold ctermfg=magenta cterm=bold
+hi erubyDelimiter guifg=firebrick3 gui=bold ctermfg=red cterm=bold
 hi htmlTag        guifg=blue gui=bold ctermfg=blue cterm=bold
 hi htmlEndTag     guifg=blue gui=bold ctermfg=blue cterm=bold
 
