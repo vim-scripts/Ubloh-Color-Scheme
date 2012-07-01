@@ -1,6 +1,6 @@
 " Ubloh Color Scheme
 " Author:  Jeremy Blain <blain.jeremy@gmail.com>
-" Version: 1.2
+" Version: 1.3
 
 set bg=dark
 hi clear
@@ -39,6 +39,11 @@ hi Function   guifg=violetred gui=bold ctermfg=magenta gui=bold
 
 hi rubySymbol     guifg=slateblue gui=bold ctermfg=blue cterm=bold
 hi erubyDelimiter guifg=firebrick3 gui=bold ctermfg=red cterm=bold
-hi htmlTag        guifg=blue gui=bold ctermfg=blue cterm=bold
-hi htmlEndTag     guifg=blue gui=bold ctermfg=blue cterm=bold
+
+hi htmlTag    guifg=blue gui=bold ctermfg=blue cterm=bold
+hi htmlEndTag guifg=blue gui=bold ctermfg=blue cterm=bold
+
+hi xmlTag     guifg=deepskyblue2 ctermfg=cyan
+hi xmlTagName guifg=deepskyblue2 ctermfg=cyan
+hi xmlEndTag  guifg=firebrick3 ctermfg=red
 
